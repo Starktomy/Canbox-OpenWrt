@@ -22,7 +22,7 @@
 #sed -i 's/root:$2y$10$S/DXBeqbZm17Be9fYRxclOAU99JXgLx.ijUv2XEVgxDiUTY6K.F8m:0:0:99999:7:::/root:x:0:0:99999:7:::/g' package/base-files/files/etc/passwd
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 #sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman' feeds.conf.default
 #sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git;openwrt-19.07' feeds.conf.default
