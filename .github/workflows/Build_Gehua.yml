@@ -22,7 +22,7 @@ on:
     branches:
       - master
     paths:
-      - 'Config_Files/CanBox.config'
+      - 'Config_Files/gehua.config'
   schedule:
     - cron: 0 2 * * 5
   watch:
